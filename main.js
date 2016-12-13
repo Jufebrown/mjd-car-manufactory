@@ -27,10 +27,12 @@ YourFavoriteMake.prototype = new Car()
         car model (e.g. horsepower, cargo capacity, etc.)
 */
 function YourFavoriteModel () {
-
+  this.model = "Accord Hybrid"
+  this.gasMileage = "45mpg"
+  this.horsepower = "296hp"
 }
 // Set the prototype to appropriate model you created above and set the model name argument
-YourFavoriteModel.prototype = new ???;
+YourFavoriteModel.prototype = new YourFavoriteMake();
 
 /*
     Being an avid car collector, you own three different cars all of
