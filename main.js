@@ -4,6 +4,7 @@
  */
 function Car () {
   // Create the manufactured date property (see above)
+  this.manufactured_date: Date.now()
 }
 
 /*
