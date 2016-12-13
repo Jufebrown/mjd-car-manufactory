@@ -68,3 +68,5 @@ AnotherModel.prototype = new YourFavoriteMake();
   Now create an instance of this new car model to put in your garage. Remember
   to give it a plate number.
  */
+ var myOtherCar = new AnotherModel();
+ myOtherCar.plate_number = "456789"
