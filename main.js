@@ -15,9 +15,10 @@ function Car () {
  */
 function YourFavoriteMake () {
   // Define the manufacturer instance variable
+  this.manufacturer = "Honda"
 }
 // Set the prototype to a new Car instance
-
+YourFavoriteMake.prototype = new Car()
 
 /*
   1. Create a constructor function named after your favorite car model.
