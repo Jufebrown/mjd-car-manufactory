@@ -42,10 +42,12 @@ YourFavoriteModel.prototype = new YourFavoriteMake();
     2. Create a new property on each object to hold the license plate
        number for each car.
 */
-var myFirstFavoriteCar = new ???;
-myFirstFavoriteCar.plate_number = "";
-...
-
+var myFirstFavoriteCar = new YourFavoriteModel();
+myFirstFavoriteCar.plate_number = "123456";
+var mySecondFavoriteCar = new YourFavoriteModel();
+mySecondFavoriteCar.plate_number = "234567";
+var myThirdFavoriteCar = new YourFavoriteModel();
+myThirdFavoriteCar.plate_number = "345678";
 
 /*
   Now let's see some power of prototypal inheritance. Create a function for
