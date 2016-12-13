@@ -55,13 +55,13 @@ myThirdFavoriteCar.plate_number = "345678";
   your first model was Fusion, make another one here for F150, for example.
  */
 function AnotherModel () {
-
+  this.model = "Civic"
 }
 /*
   Assign the prototype to the make you define above. Now both models will
   inherit the `manufacturer` property from the make function.
  */
-
+AnotherModel.prototype = new YourFavoriteMake();
 
 
 /*
